@@ -1,0 +1,76 @@
+
+.container-2, .container-3,.container-4,
+.container-5,.container-1{
+    margin: 0 auto;
+    width: 70%;
+    border: 1px solid black;
+    text-align: center;
+}
+
+
+
+.flex-box-container, .flex-box-rps, .flex-box-pick-color, 
+.flex-blackjack-row-1, .flex-box-age,
+.flex-blackjack-row-2, .flex-blackjack-row-3{
+    display: flex;
+    border: 1px solid black;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.flex-box-age div{
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+
+.flex-box-container img{
+    display: flex;
+    width: 250px;
+    height: 150px;
+    margin: 10px;
+    box-shadow: 0px 10px 50px rgba(36, 35, 35, 0.7);
+}
+
+.flex-box-rps img:hover
+{
+    box-shadow: 0 10px 50px rgba(37, 50, 233, 1);
+}
+
+
+/* stylling the challenge 5 */
+
+.flex-blackjack-row-1, .flex-blackjack-row-2{
+    background: url('../images/tables.jpg');
+    color: #fff;
+}
+
+.flex-blackjack-row-1 div{
+    flex: 1;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    height: 350px;
+    
+}
+
+
+.flex-blackjack-row-1 img{
+    width: 25%;
+    padding: 10px;
+}
+
+.flex-blackjack-row-2 button, .flex-blackjack-row-2 div{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+table, th, td{
+    padding: 5px;
+    border: 1px solid black;
+}
+
+
